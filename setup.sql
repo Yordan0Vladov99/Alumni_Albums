@@ -163,7 +163,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'photographer','photographer','Mord0r83'),(2,'jsvladov','user','Jv990809'),(3,'Shaki','user','Sh666666');
+INSERT INTO `users` VALUES (1,'photographer','photographer','Adm1nPass'),(2,'jsvladov','user','Rand7mP4ss'),(3,'Shaki','user','Sh666666');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
