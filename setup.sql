@@ -37,12 +37,6 @@ CREATE TABLE `albums` (
 -- Dumping data for table `albums`
 --
 
-LOCK TABLES `albums` WRITE;
-/*!40000 ALTER TABLE `albums` DISABLE KEYS */;
-INSERT INTO `albums` VALUES (3,'jsvladov','Memes','78911992_2359956620775578_2264296927271059456_o.jpg|Big_Shaggy.png|EMF8FP4WwAI8AjT.jpg|',12,'sent'),(4,'jsvladov','Memes','78911992_2359956620775578_2264296927271059456_o.jpg|Big_Shaggy.png|EMF8FP4WwAI8AjT.jpg|ENkiKFNWkAA_Nwx.jpg|81a0UL1fR7L._SS500_.jpg|',20,'sent'),(5,'jsvladov','Memes','78911992_2359956620775578_2264296927271059456_o.jpg|Big_Shaggy.png|81a0UL1fR7L._SS500_.jpg|',12,'sent');
-/*!40000 ALTER TABLE `albums` ENABLE KEYS */;
-UNLOCK TABLES;
-
 --
 -- Table structure for table `cart_items`
 --
@@ -65,11 +59,7 @@ CREATE TABLE `cart_items` (
 -- Dumping data for table `cart_items`
 --
 
-LOCK TABLES `cart_items` WRITE;
-/*!40000 ALTER TABLE `cart_items` DISABLE KEYS */;
-INSERT INTO `cart_items` VALUES (19,'Big_Shaggy.png','cup','photographer',5),(20,'78911992_2359956620775578_2264296927271059456_o.jpg','cup','photographer',5);
-/*!40000 ALTER TABLE `cart_items` ENABLE KEYS */;
-UNLOCK TABLES;
+
 
 --
 -- Table structure for table `files`
@@ -149,11 +139,6 @@ CREATE TABLE `requests` (
 -- Dumping data for table `requests`
 --
 
-LOCK TABLES `requests` WRITE;
-/*!40000 ALTER TABLE `requests` DISABLE KEYS */;
-INSERT INTO `requests` VALUES (57,'jsvladov','Item:Album     Quantity:8      Total Price:96','denied',NULL,'2021-07-04 14:18:19',3),(58,'jsvladov','Item:Album     Quantity:4      Total Price:80','denied',NULL,'2021-07-04 18:18:25',4),(59,'jsvladov','Item:Album     Quantity:5      Total Price:60','pending',NULL,'2021-07-04 19:30:39',5),(60,'jsvladov','Item:cup     Quantity:4      Total Price:20','pending','f7715b4324a415c3e519ac307a900002.jpg','2021-07-05 13:05:27',0),(61,'jsvladov','Item:cup     Quantity:3      Total Price:15','pending','EMF8FP4WwAI8AjT.jpg','2021-07-05 13:05:33',0);
-/*!40000 ALTER TABLE `requests` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `users`
