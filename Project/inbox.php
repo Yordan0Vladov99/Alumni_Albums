@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Project </title>
     <link rel="stylesheet" type="text/css" href="navbar.css" />
-    <link rel="stylesheet" href="./inbox.css"/>
+    <link rel="stylesheet" href="./inbox.css">
 </head>
 <body>
 <div class="navbar">
